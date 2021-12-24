@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+margin-top: 10px;
+font-family: var(--font1);
+height: 60px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+.nav-left{
+display: flex;
+align-items: center;
+text-decoration: none;
+color:rgb(168, 108, 224);
+}
+.nav-left span{
+    font-size: 35px;
+    padding-top: 5px;
+}
+.nav-left ul {
+    font-size: 22px;
+    margin:0 77px;
+    display: flex;
+    color: black;
+    margin: 40px;
+}
+.nav-left ul li{
+   list-style: none;
+   margin: 0 20px;
+   font-family: var(--font1);
+   color: solid black;
+}
+.nav-left ul li a{
+    text-decoration: none;
+    font-weight: 50px;
+    color: black;
+}
+.nav-left ul li a:hover{
+    color: var(--main-bg-color);
+    font-weight: bolder;
+ }
+
+.nav-right{
+
+}
+.content{
+    height:350px;
+    display: flex;
+    margin-top: 15px;
+    padding: 9px;
+   position: relative;
+   
+   
+}
+.content::after{
+    content: "";
+    background-image: url('../home.svg.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.40;
+}
+.content-left{
+    font-family: 'Times New Roman', Times, serif;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    z-index: -1;
+}
+.content-left h1{
+    font-weight: bolder;
+    padding: 5px;
+}
+.content-right{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.content-right img{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+.home-articles{
+    padding: 15px;
+    background-color: rgb(206, 195, 201);
+    margin-top: 23px;
+}
+.home-article{
+   display: flex;
+   margin: 25px;
+}
+.home-article img{
+    width: 300px;
+    height: 250px;
+}
+.home-article-content{
+   align-self: center;
+   padding: 25px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+height: 50px;
+margin-top: 20px;
+background-color:black;
+display: flex;
+ align-items: center;
+ justify-content: center;
+ color: white;
+ flex-direction: column;
+}
+.footer a{
+    color: white;
+}

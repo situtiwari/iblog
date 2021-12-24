@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Roboto&display=swap');
+:root{
+    --main-bg-color:rgb(180, 104, 224);
+    --font1: 'Roboto', sans-serif;
+    --font2:'Barlow', sans-serif;
+}
+.font1{
+   font-family: var(--font1); 
+}
+.font2{
+    font-family: var(--font2); 
+ }
+.max-width1{
+    max-width: 80vw;
+}
+.max-width2{
+   max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.my-2{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.btn{
+    padding: 0 15px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: var(--font1);
+    cursor:pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    color: white;
+    background: var(--main-bg-color);
+}
+.form-input{
+    padding: 0 5px;
+    border: 2px solid black;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 0 18px;
+    font-family: var(--font1);
+}
